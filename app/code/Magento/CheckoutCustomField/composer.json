@@ -1,0 +1,18 @@
+{
+    "name": "vendor/checkout-custom-field",
+    "description": "Magento 2 module to add custom field to checkout",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+      "php": "~7.3||~7.4"
+    },
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Vendor\\CheckoutCustomField\\": ""
+      }
+    }
+  }
+  
